@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Cube Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="cube" id="cube">
+            <div class="face front"><img src="MN.jpg" alt="Image 1"></div>
+            <div class="face back"><img src="MJN.jpg" alt="Image 2"></div>
+            <div class="face right"><img src="MNJS.jpg" alt="Image 3"></div>
+            <div class="face left"><img src="ALL.jpg" alt="Image 4"></div>
+            <div class="face top"><img src="padma.JPG" alt="Image 5"></div>
+            <div class="face bottom"><img src="suresh.JPG" alt="Image 6"></div>
+        </div>
+    </div>
+    <div class="buttons">
+        <button onclick="rotateCube('x')">Rotate X</button>
+        <button onclick="rotateCube('y')">Rotate Y</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
